@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-weight: bold;
+}
+
+.head {
+  font-size: 13px;
+  color: #8D9CA4;
+}
+
+th {
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.row, .head_row {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.headers:first-child {
+  font-family: 'Open Sans';
+}
+
+.headers {
+  padding: 15px;
+}
+
+.list_item {
+  padding: 15px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.firstname, .lastname {
+  color: #009cd9;
+}
+
+.lastname {
+  margin-left: 5px;
+}

@@ -1,0 +1,11 @@
+@import url(./reset.css);
+@import url(./fonts/fonts.css); 
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  color: #023951;
+}
