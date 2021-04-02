@@ -11,8 +11,8 @@ const Biathlon: React.FC = () => {
   const [ active, setActive ] = useState('');
 
   useEffect(() => {
-    setContestants(fakeContestants(60, 0).sort(sortByName));
-    setActive('name');
+    setContestants(fakeContestants(60, 0).sort(sortByTime));
+    setActive('time');
   }, []);
 
   const sort = (by: string): void => {
