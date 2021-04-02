@@ -2,7 +2,7 @@
 
 On startup generate a biathlon race results table.
 
-Initialy data has to be sorted out by rank.
+Initially data have to be sorted out by a rank.
 Additionally there has to be an option to sort data by name, shooting and time.
 Plus search by name field. 
 

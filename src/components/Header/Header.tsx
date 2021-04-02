@@ -12,7 +12,6 @@ const Header: React.FC<HeaderProps> = ({ sort, input, onchange, active })  => {
   return (
     <div className={style.header}>
       <h1 className={style.title}>Men 12.5km Pursuit Competition</h1>
-
       <div className={style.sort}>
         <input 
             value={input} 
